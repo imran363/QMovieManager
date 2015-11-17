@@ -1,0 +1,14 @@
+-- Database Name : mainDb.db
+
+-- Describe MOVIES
+CREATE TABLE movies (
+    "id" TEXT UNIQUE PRIMARY KEY NOT NULL,
+    "name" TEXT NOT NULL,
+    "type" TEXT NOT NULL,
+    "language" TEXT,
+    "genre" TEXT,
+    "rating" TEXT,
+    "year" TEXT,
+    "quality" TEXT
+, "path" TEXT)
+ 
